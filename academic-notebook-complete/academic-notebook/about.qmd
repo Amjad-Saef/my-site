@@ -10,7 +10,7 @@ toc: false
     <h1>A little<br><em>about me.</em></h1>
     <div class="about-prose">
       <p> Welcome to my website. My name is <strong>Amjad Saef</strong>. On this website, you can find information about my current and past endeavours, and in particular some more or less formal essays on intelligence and computation.</p>
-      <p>Some pages are complete essays. Others are working notes or small discoveries. The common thread is a belief that mathematical writing should be both rigorous and readable.</p>
+      <p> I am a mathematician by training and a programmer by vocation. In July 2026, I defended my dissertation, written under the superivision of Prof. Dr. Wilhelm Stannat at TU Berlin and the Berlin Mathematical School. Subsequently, I joined Danial Saef and Mohammad El-Ismail in co-founding Scrooge, a platform to track- and act on risks and opportunities in digital asset markets. </p>
       <p><em>Replace these paragraphs with your biography, research interests, affiliations, and contact details.</em></p>
     </div>
     <div class="quote-panel">“The purpose of this notebook is not to know everything, but to look more carefully.”<small>A GUIDING THOUGHT</small></div>
