@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+$primary: #71513e;
+$body-bg: #f9f8f5;
+$body-color: #2b2b27;
+$link-color: #77513e;
+$link-hover-color: #473325;
+$font-family-sans-serif: "DM Sans", Arial, sans-serif;
+$headings-font-family: "Newsreader", Georgia, serif;
+$headings-color: #272824;
+$navbar-light-color: #55574f;
+$navbar-light-hover-color: #342f29;
+$navbar-padding-y: 1.05rem;
+$border-color: #e5e1d9;
+$border-radius: 0.3rem;
+$input-bg: #f9f8f5;
+
+/*-- scss:rules --*/
+/* Most visual rules live in styles/site.css so they're also used by the
+   separately browsable, pre-rendered HTML edition in docs/. */

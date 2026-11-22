@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/**
+    - .nojekyll
+
+website:
+  title: "Your Name"
+  description: "Essays and working notes on mathematics, proof, and ideas."
+  site-url: "https://example.com/" # REPLACE with your published URL before release
+  favicon: assets/favicon.svg
+  search: true
+  page-navigation: true
+  navbar:
+    background: light
+    title: "Your Name"
+    left:
+      - text: Essays
+        href: essays/index.qmd
+      - text: Notes
+        href: notes/index.qmd
+      - text: About
+        href: about.qmd
+  page-footer:
+    border: false
+    left: "© 2026 Your Name · Built for careful reading."
+    right:
+      - text: Essays
+        href: essays/index.qmd
+      - text: About
+        href: about.qmd
+
+format:
+  html:
+    theme:
+      - litera
+      - styles/theme.scss
+    css: styles/site.css
+    html-math-method: mathjax
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    code-copy: true
+    anchor-sections: true
+    smooth-scroll: true
+    footnotes-hover: true
+    link-external-newwindow: false
+
+bibliography: references.bib
+execute:
+  freeze: auto

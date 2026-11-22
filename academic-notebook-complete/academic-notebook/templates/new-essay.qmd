@@ -1,0 +1,31 @@
+---
+title: "Your Essay Title"
+subtitle: "An optional subtitle"
+description: "A one-sentence summary displayed in the essay index."
+date: today
+categories: [Mathematics]
+toc: true
+draft: true
+---
+
+::: {.essay-lede}
+Start with a compelling idea or question.
+:::
+
+## The question
+
+Introduce the mathematical context. Inline mathematics uses $f(x)=x^2$.
+
+## A useful equation
+
+Display equations use double dollar signs:
+
+$$
+\int_0^1 x^n\,dx = \frac{1}{n+1}.
+$$ {#eq-sample}
+
+Reference that equation using @eq-sample.
+
+## The conclusion
+
+Write a clear final observation. Remove `draft: true` when you want to publish.

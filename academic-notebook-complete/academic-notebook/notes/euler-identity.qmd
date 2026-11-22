@@ -1,0 +1,56 @@
+---
+title: "A Short Route to Euler's Identity"
+subtitle: "The exponential function meets the unit circle"
+description: "Why exponentials can encode rotations, and how five constants fall into a single equation."
+date: 2026-09-24
+categories: [Complex analysis, Notes]
+image: ../assets/euler.svg
+image-alt: "Fine unit circle with a point marked on its perimeter"
+toc: true
+---
+
+::: {.essay-lede}
+The formula $e^{i\pi}+1=0$ looks almost ceremonial. Its derivation, however, is a straightforward and exceptionally useful consequence of the power-series definition of the exponential function.
+:::
+
+## Start with a power series
+
+For every complex number $z$, the exponential function is defined by the absolutely convergent series
+
+$$
+e^z=\sum_{n=0}^{\infty}\frac{z^n}{n!}.
+$$
+
+Put $z=ix$ for real $x$. Because powers of $i$ repeat in a cycle of length four, we can group even and odd powers:
+
+$$
+\begin{aligned}
+e^{ix}
+&=\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots\right)\\
+&\quad+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots\right).
+\end{aligned}
+$$
+
+The real and imaginary parts are precisely the Taylor series of cosine and sine. Thus
+
+$$
+e^{ix}=\cos x+i\sin x.
+$$ {#eq-euler}
+
+## Evaluate at a half-turn
+
+A half-turn corresponds to $x=\pi$. Since $\cos\pi=-1$ and $\sin\pi=0$, equation @eq-euler becomes
+
+$$
+e^{i\pi}=-1,
+$$
+
+or, in its most familiar form,
+
+$$
+\boxed{e^{i\pi}+1=0}.
+$$
+
+## The geometrical meaning
+
+For real $x$, the complex number $e^{ix}$ lies on the unit circle. Varying $x$ traces a rotation. Exponentials, trigonometry, and complex multiplication turn out to be different descriptions of the same structure.

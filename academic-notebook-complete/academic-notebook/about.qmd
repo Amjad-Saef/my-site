@@ -1,0 +1,26 @@
+---
+title: "About"
+page-layout: full
+toc: false
+---
+
+<div class="about-page">
+  <div>
+    <div class="page-eyebrow">BEHIND THE NOTEBOOK</div>
+    <h1>A little<br><em>about me.</em></h1>
+    <div class="about-prose">
+      <p>Hello, I’m <strong>Your Name</strong>. This website is a home for mathematical ideas I want to understand more deeply and explain more clearly.</p>
+      <p>I’m interested in the places where a formal proof meets intuition: the geometry hidden in analysis, the structures that reappear across different fields, and the moments when a calculation suddenly makes sense.</p>
+      <p>Some pages are complete essays. Others are working notes or small discoveries. The common thread is a belief that mathematical writing should be both rigorous and readable.</p>
+      <p><em>Replace these paragraphs with your biography, research interests, affiliations, and contact details.</em></p>
+    </div>
+    <div class="quote-panel">“The purpose of this notebook is not to know everything, but to look more carefully.”<small>A GUIDING THOUGHT</small></div>
+  </div>
+  <aside class="about-aside">
+    <h3>Interests</h3>
+    <p>Analysis<br>Geometry<br>Topology<br>Mathematical exposition</p>
+    <div class="thin-rule"></div>
+    <h3>Correspondence</h3>
+    <p>Replace with your professional contact information or preferred social profile.</p>
+  </aside>
+</div>

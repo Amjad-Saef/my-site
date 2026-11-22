@@ -1,0 +1,24 @@
+---
+title: "Essays"
+description: "Long-form explorations of mathematical ideas, intuition, and proof."
+page-layout: full
+toc: false
+listing:
+  id: essay-listing
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  feed: true
+---
+
+<div class="collection-page">
+  <div class="page-eyebrow">THE ARCHIVE / 01</div>
+  <h1>Essays<span style="color:var(--accent)">.</span></h1>
+  <p class="collection-description">Longer arguments, carefully worked through. A place for mathematical ideas that benefit from time, context, and a second look.</p>
+  <div class="thin-rule"></div>
+  <div class="collection-count"><span>SELECTED WRITING</span><span>NEWEST FIRST</span></div>
+  <div id="essay-listing"></div>
+</div>
