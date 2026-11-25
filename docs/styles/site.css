@@ -52,18 +52,13 @@ a:hover {
 }
 
 .bar {
-  min-height:5rem;
-  justify-content:flex-end
+  min-height:5rem
 }
 
-.top .brand {
-  display:none
-}
-
-.brand {
+.page-label {
+  margin:0;
   font:italic 1.75rem/1.1 var(--serif);
   letter-spacing:-.055em;
-  text-decoration:none;
   color:var(--ink)
 }
 
@@ -107,13 +102,6 @@ h1,h2,h3 {
   font-family:var(--serif);
   font-weight:normal;
   text-wrap:balance
-}
-
-.welcome h1 {
-  font-size:clamp(2.05rem,3.5vw,3.1rem);
-  line-height:1.12;
-  letter-spacing:-.05em;
-  margin:0 0 .8rem
 }
 
 .intro p {
@@ -210,13 +198,6 @@ footer a {
   padding:3rem 0
 }
 
-.inner>h1 {
-  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  letter-spacing:-.045em;
-  line-height:1.1;
-  margin:0 0 2rem
-}
-
 .inner .section-head {
   border-top:1px solid var(--accent);
   padding-top:1.25rem
@@ -271,7 +252,7 @@ footer a {
     min-height:4.5rem;
     gap:.75rem
   }
-  .brand {
+  .page-label {
     font-size:1.4rem
   }
   nav {

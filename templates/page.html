@@ -11,7 +11,11 @@ $if(math)$$math$$endif$
 <body>
 <a class="skip" href="#content">Skip to content</a>
 <header class="top"><div class="shell bar">
-<a class="brand" href="$prefix$index.html">Amjad Saef</a>
+$if(story)$
+<span class="page-label">Blog</span>
+$else$
+<h1 class="page-label"$if(blog)$ id="blog"$endif$>$if(cv)$CV$else$$title$$endif$</h1>
+$endif$
 <nav aria-label="Main navigation">
 <a href="$prefix$index.html"$if(home)$ aria-current="page"$endif$>Home</a>
 <a href="$prefix$research.html"$if(research)$ aria-current="page"$endif$>Research</a>

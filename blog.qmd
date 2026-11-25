@@ -3,7 +3,5 @@ title: Blog
 blog: true
 ---
 
-# Blog
-
 ::: {.post-list}
 :::
