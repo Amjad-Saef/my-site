@@ -57,7 +57,7 @@ a:hover {
 
 .page-label {
   margin:0;
-  font:italic 1.75rem/1.1 var(--serif);
+  font:normal 1.75rem/1.1 var(--serif);
   letter-spacing:-.055em;
   color:var(--ink)
 }
