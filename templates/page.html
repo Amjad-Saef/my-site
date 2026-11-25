@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$pagetitle$ · Amjad Saef</title>
+<link rel="stylesheet" href="$prefix$styles/site.css">
+$for(header-includes)$$header-includes$$endfor$
+$if(math)$$math$$endif$
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="top"><div class="shell bar">
+<a class="brand" href="$prefix$index.html">Amjad Saef</a>
+<nav aria-label="Main navigation">
+<a href="$prefix$index.html"$if(home)$ aria-current="page"$endif$>Home</a>
+<a href="$prefix$research.html"$if(research)$ aria-current="page"$endif$>Research</a>
+<a href="$prefix$blog.html"$if(blog)$ aria-current="page"$endif$>Blog</a>
+<a href="$prefix$cv.html"$if(cv)$ aria-current="page"$endif$>CV</a>
+</nav></div></header>
+<main id="content" tabindex="-1" class="shell$if(home)$$else$ inner$endif$">
+$if(story)$
+<article class="story">
+<a class="secondary" href="../blog.html">All posts</a>
+<h1>$title$</h1>
+$if(date)$<p class="secondary">$date$</p>$endif$
+<div class="prose">
+$body$
+</div></article>
+$if(disfora-enabled)$
+<div data-disfora-comments></div><script src="https://disfora.com/public/disfora.js" async></script>
+$endif$
+$else$
+$body$
+$endif$
+</main>
+<footer class="shell"><span>Amjad Saef</span><div><a href="mailto:amjad.saef96@gmail.com">Email</a><a href="https://www.linkedin.com/in/amjad-saef-579042386/">LinkedIn</a></div></footer>
+</body></html>

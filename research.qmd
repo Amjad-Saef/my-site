@@ -1,0 +1,11 @@
+---
+title: Research
+research: true
+---
+
+```{=html}
+<h1>Research</h1><h2>Papers</h2>
+<div class="entry"><h3>Well-posedness of stochastic parabolic equations with gradient nonlinearities and applications to phase-field models</h3><p>Amjad Saef · Preprint, 2026</p><a href="https://arxiv.org/abs/2606.15425">arXiv</a> · <a href="https://arxiv.org/pdf/2606.15425">PDF</a></div>
+<div class="entry"><h3>On a stochastic phase-field model of cell motility with singular diffusion</h3><p>Amjad Saef and Wilhelm Stannat · 2026</p><a href="https://arxiv.org/abs/2601.05881">arXiv</a> · <a href="https://arxiv.org/pdf/2601.05881">PDF</a></div>
+<div class="entry"><h3>Stability of travelling wave solutions to reaction–diffusion equations driven by additive noise with Hölder continuous paths</h3><p>Amjad Saef and Wilhelm Stannat · <i>Stochastics and Dynamics</i>, 2025</p><a href="https://arxiv.org/abs/2501.12944">arXiv</a> · <a href="https://arxiv.org/pdf/2501.12944">PDF</a> · <a href="https://doi.org/10.1142/S0219493725500364">DOI</a></div>
+```

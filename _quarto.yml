@@ -1,0 +1,20 @@
+project:
+  type: default
+  output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - blog.qmd
+    - cv.qmd
+    - posts/*.qmd
+  resources:
+    - assets/
+    - styles/
+format:
+  html:
+    theme: none
+    template: templates/page.html
+    html-math-method: mathjax
+filters:
+  - tools/essays.lua
+bibliography: references.bib

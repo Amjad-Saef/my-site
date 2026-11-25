@@ -1,0 +1,10 @@
+---
+title: What makes an intelligence artificial? *Part 1*
+story: true
+blog: true
+prefix: ../
+---
+
+Some years ago, I liked to say that there is nothing unnatural on this earth. After all, every product of human effort is still an immediate result of nature (and the laws of physics). A beaver dam is natural, so why shouldn’t a house be? It was mainly an edgy take, but the underlying sorites paradox did intrigue me. Where do you draw the line?
+
+Nowadays I find myself in a very similar situation. I’m not the first to say that the success of large language models suggests that intelligence and consciousness are separate things, and that machine intelligence is possible. Whether an ant is conscious is debatable too. What kind of consciousness, if any, an ant colony might possess is harder still to say. Yet I wonder: is the natural intelligence of an ant colony fundamentally different from the intelligence of an LLM?
