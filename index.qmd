@@ -10,8 +10,7 @@ home: true
 ```
 
 ::: {.latest}
-<div class="section-head"><h2>Latest essay</h2><a class="secondary" href="blog.html">All posts</a></div>
-
 ::: {.post-list limit="1"}
+<div class="section-head"><h2>Latest essay</h2><a class="secondary" href="blog.html">All posts</a></div>
 :::
 :::

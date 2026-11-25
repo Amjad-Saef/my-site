@@ -16,11 +16,14 @@ local function list_posts(div)
       })
     end
   end
+  if #posts == 0 then
+    return pandoc.Para({pandoc.Emph("Following soon!")})
+  end
   table.sort(posts, function(a, b)
     if a.date == b.date then return a.name < b.name end
     return a.date > b.date
   end)
-  local items = pandoc.List()
+  local items = div.content
   local limit = tonumber(div.attributes.limit) or #posts
   for i = 1, math.min(limit, #posts) do
     local post = posts[i]

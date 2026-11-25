@@ -7,6 +7,7 @@ project:
     - blog.qmd
     - cv.qmd
     - posts/*.qmd
+    - "!posts/_drafts/**"
   resources:
     - assets/
     - styles/
