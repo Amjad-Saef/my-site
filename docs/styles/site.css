@@ -52,7 +52,12 @@ a:hover {
 }
 
 .bar {
-  min-height:5rem
+  min-height:5rem;
+  justify-content:flex-end
+}
+
+.top .brand {
+  display:none
 }
 
 .brand {
