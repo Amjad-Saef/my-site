@@ -17,7 +17,7 @@ local function list_posts(div)
     end
   end
   if #posts == 0 then
-    return pandoc.Para({pandoc.Emph("Following soon!")})
+    return pandoc.Para({pandoc.Emph(div.attributes["empty-message"] or "Following soon!")})
   end
   table.sort(posts, function(a, b)
     if a.date == b.date then return a.name < b.name end

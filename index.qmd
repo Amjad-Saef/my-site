@@ -10,7 +10,7 @@ home: true
 ```
 
 ::: {.latest}
-::: {.post-list limit="1"}
+::: {.post-list limit="1" empty-message="More following soon!"}
 <div class="section-head"><h2>Latest essay</h2><a class="secondary" href="blog.html">All posts</a></div>
 :::
 :::
